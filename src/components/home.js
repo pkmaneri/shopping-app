@@ -4,7 +4,6 @@ import { Link, Switch, Route } from 'react-router-dom';
 import ProductList from './homeproduct';
 import CartList from "./cart"
 
-
 const Home = () => {
     
     const [show, setShow] = useState(false);
